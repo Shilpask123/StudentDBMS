@@ -1,6 +1,6 @@
 # Student Database Management System in Java
 
-## Project Description:
+### Project Description:
 
 This project is a Student Database Management System implemented in Java using Object-Oriented Programming (OOP) concepts. It allows users to manage student records efficiently by adding, viewing, updating, and deleting student details.
 
@@ -12,26 +12,26 @@ This project is a Student Database Management System implemented in Java using O
 - Update existing student records by Student ID.
 - Delete student records by Student ID.
 - Demonstrates OOP concepts like:
-  1. Encapsulation: Secure storage of student details using private fields and getters/setters.
-  2. Inheritance: Person class is extended by Student and Teacher classes.
-  3. Polymorphism: Method overloading and overriding for displaying student information.
-  4. Abstraction: DatabaseOperations interface defines common database operations.
+  **1. Encapsulation:** Secure storage of student details using private fields and getters/setters.
+  **2. Inheritance:** Person class is extended by Student and Teacher classes.
+  **3. Polymorphism:** Method overloading and overriding for displaying student information.
+  **4. Abstraction:** DatabaseOperations interface defines common database operations.
 
  ---
 
  ## Classes & Structure
 
- - **Person** – Base class containing common attributes like name and age.
+ - **Person** –  Base class containing common attributes like name and age.
 
-- **Student** – Extends **Person**; includes student ID, course, marks, and methods to display info.
+- **Student** –  Extends **Person**; includes student ID, course, marks, and methods to display info.
 
-- **Teacher** – Extends **Person**; includes subject and overrides displayInfo().
+- **Teacher** –  Extends **Person**; includes subject and overrides displayInfo().
 
-- **StudentDatabase** – Implements DatabaseOperations; manages a list of students.
+- **StudentDatabase** –  Implements DatabaseOperations; manages a list of students.
 
-- **DatabaseOperations** – Interface defining CRUD operations for student records.
+- **DatabaseOperations** –  Interface defining CRUD operations for student records.
 
-- **StudentManagementSystem** – Main class with a console menu to interact with the system.
+- **StudentManagementSystem** –  Main class with a console menu to interact with the system.
 
 ---
 
