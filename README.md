@@ -13,8 +13,11 @@ This project is a Student Database Management System implemented in Java using O
 - Delete student records by Student ID.
 - Demonstrates OOP concepts like:
   **1. Encapsulation:** Secure storage of student details using private fields and getters/setters.
+
   **2. Inheritance:** Person class is extended by Student and Teacher classes.
+
   **3. Polymorphism:** Method overloading and overriding for displaying student information.
+
   **4. Abstraction:** DatabaseOperations interface defines common database operations.
 
  ---
